@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8360326462164048616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5042493090046944685}
+  - component: {fileID: 6930665060687337457}
+  m_Layer: 0
+  m_Name: Quest2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5042493090046944685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360326462164048616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6930665060687337457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360326462164048616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202b51c9f67c9c14ba17fc350dfad01c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Explain: "\uCC28\uB2E8\uBB38 \uC124\uBA85 \uBC0E \uAC70\uB9AC \uC9C4\uC785"
+  dialogue:
+    name: "\uB3C4\uC0B0"
+    sentences:
+    - "..........\uC811\uC18D\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    - "\uCC28\uB2E8\uBB38 \uC55E\uAE4C\uC9C0 \uB3C4\uB2EC\uD588\uB098\uBCF4\uAD70.\n"
+    - "\uB3C4\uC2DC\uB97C \uC5EC\uB7EC\uACB9\uC73C\uB85C \uB36E\uACE0 \uC788\uB294
+      \uC800 \uBCBD\uC740 \uBCF4\uC548 \uD504\uB85C\uADF8\uB7A8\uC774 \uB2F4\uB2F9\uD558\uACE0
+      \uC788\uB2E4. \uD574\uD0B9\uB3C4 \uAC00\uB2A5\uD560 \uAC70\uB2E4."
+    - "\uC544\uB9C8 \uADF8\uCABD \uCC28\uB2E8\uBB38\uC740 \uACF5\uC0AC\uB54C\uBB38\uC5D0
+      \uC911\uACC4\uAE30\uAC00 \uB098\uC640\uC788\uC744 \uAC70\uB2E4. \uADF8\uAC83\uC744
+      \uD30C\uAD34\uD558\uBA74 \uD574\uD0B9\uD560 \uC218 \uC788\uC744\uAC70\uC57C."
+    - "\uC0C1\uB2F9\uD788 \uB2E8\uB2E8\uD558\uB2C8\uAE4C \uD14C\uC2A4\uD2B8\uACB8
+      \uD574\uC11C \uD130\uB81B\uC744 \uD574\uD0B9\uD574\uC11C \uBD80\uC154\uBCF4\uB3C4\uB85D
+      \uD558\uAC8C."
+    - "\uD130\uB81B\uC744 \uD574\uD0B9\uD558\uBA74 \uC218\uB3D9 \uC870\uC885 \uC804\uD658\uBC84\uD2BC\uC774
+      \uB730 \uAC70\uACE0 \uC218\uB3D9\uC870\uC885\uC2DC \uB178\uD2B8\uBD81\uC758
+      SpaceBar \uD0A4\uB85C \uBC1C\uC0AC \uD560 \uC218 \uC788\uC744\uAC70\uB2E4."
+    - "\uD56D\uC0C1 \uC218\uB3D9\uC870\uC885\uD560\uB550 \uC2A4\uC2A4\uB85C \uC6C0\uC9C1\uC774\uC9C0
+      \uBABB\uD55C\uB2E4\uB294\uAC78 \uBA85\uC2EC\uD558\uB3C4\uB85D."

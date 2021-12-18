@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &50788415311045404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3552003013895511129}
+  - component: {fileID: 1485937683338178053}
+  m_Layer: 0
+  m_Name: Quest3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3552003013895511129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50788415311045404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1485937683338178053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50788415311045404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202b51c9f67c9c14ba17fc350dfad01c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Explain: "\uCC28\uB2E8\uBB38 \uC9C4\uC785 "
+  dialogue:
+    name: "\uB3C4\uC0B0"
+    sentences:
+    - "..........\uC811\uC18D\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    - "\uCC28\uB2E8\uBB38\uC5D0\uC11C \uB118\uC5B4\uC654\uB098?"
+    - "\uADF8\uB7FC \uAC70\uB9AC\uB97C \uB530\uB77C \uCB49 \uC9C1\uC9C4\uD558\uBA74
+      \uC2B9\uAC15\uC7A5\uC774 \uB098\uC62C \uAC70\uB2E4. \uC6B0\uB9AC\uB3C4 \uAC70\uC758
+      \uB3C4\uCC29\uD588\uB2E4."
+    - "\uAC70\uB9AC\uC5D4 \uC9C0\uAE08 \uAD70 \uB85C\uBD07\uB4E4\uC774 \uC794\uB729
+      \uC788\uC73C\uB2C8 \uC798 \uC7A1\uACE0 \uC640\uC57C \uD560 \uAC70\uB2E4."
+    - "\uC544 \uCC38\uACE0\uB85C \uAC00\uB054 \uAE38\uAC00\uC5D0 \uB7A8 \uBD80\uD488\uC774
+      \uB5A8\uC5B4\uC838 \uC788\uB294\uB370 \uADF8\uAC78 \uC5BB\uC73C\uBA74 \uB7A8\uC6A9\uB7C9\uC744
+      \uB298\uB9B4 \uC218 \uC788\uC744\uAC8C\uC57C."
+    - "\uAD6C\uC2DD \uB178\uD2B8\uBD81\uC774\uB77C \uB7A8 \uC6A9\uB7C9 \uD655\uC778\uC774
+      \uC548\uB418\uC9C0\uB9CC \uB7A8 \uBD80\uD488 \uD558\uB098\uB2F9 128MB\uB77C\uB294
+      \uAC83\uC744 \uAE30\uC5B5\uD558\uBA74 \uB420\uAC78\uC138."
